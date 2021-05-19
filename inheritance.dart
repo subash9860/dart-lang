@@ -38,5 +38,5 @@ main(List<String> arguments){
   cat.name = "Meaow";
   cat.showName();
   cat.eat();
-  var anotherCat = Cat.namedCatConstructor();
+  Cat.namedCatConstructor();
 }
