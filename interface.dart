@@ -1,7 +1,7 @@
 // interface in dart is a class , but we don't extend we implement it
 
 class Vehicle {
-  void sterrTheVehicle() {
+  void steerTheVehicle() {
     print("The Vehicle is moving.");
   }
 }
