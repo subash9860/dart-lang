@@ -19,4 +19,7 @@ main() {
   print("==================");
   var clonedFibonacciNumbers = List.from(fibonacciNum);
   print("Cloned List : $clonedFibonacciNumbers");
+  var mappedNames = fibonacciNum.map((name) => "STARTING $fibonacciNum").toList();
+  print(mappedNames);
+
 }
