@@ -27,6 +27,6 @@ void displayNews() {
   // here we will primarily display the news headline
   Future<String> displayingNewsHeadlines = checkingNewsApp();
   // inside then we need an anonymous function like lambda or anoymous functions
-  displayingNewsHeadlines.then((value) =>
-      print("Displaying news headlines here:$displayingNewsHeadlines"));
+  displayingNewsHeadlines.then((displayString) =>
+      print("Displaying news headlines here:$displayString"));
 }
