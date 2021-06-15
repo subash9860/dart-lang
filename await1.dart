@@ -19,7 +19,7 @@ void main() {
     return delayingTenSeconds;
   }
 
-checkVersion() async {
+ checkVersion() async {
   String version = await checkingVersion();
   // do something with version
   try {
