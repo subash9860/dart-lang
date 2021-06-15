@@ -15,7 +15,7 @@ void main() {
 // this is where our heavy operations are taking place
 Future<String> checkingNewsApp() {
   // since we are returning a string value
-  // by delaying the main UI threas for 10 seconds
+  // by delaying the main UI thread for 10 seconds
   Future<String> delayingTenSeconds = Future.delayed(Duration(seconds: 10), () {
     return "The latest headlines are displayed here after 10 seconds.";
   });
